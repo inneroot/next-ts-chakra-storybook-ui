@@ -1,14 +1,14 @@
-# TypeScript Next.js example
+# Generated with TypeScript Next.js example
 
 yarn create next-app --example with-typescript with-typescript-app
 
-# Add chakra-ui dependencies
+# Added chakra-ui dependencies
 
 yarn add @chakra-ui/core @emotion/core @emotion/styled emotion-theming
 
+# Added Storybook
+https://dev.to/aprietof/next-js-typescript-storybook-the-really-simple-guide-2019-fei
+
 # Usage
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
-
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
-
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+yarn dev - for development
+yarn storybook - for storybook view
